@@ -260,7 +260,7 @@ controls.minPolarAngle = Math.PI / 4; // Minimum polar angle (in radians)
 controls.maxPolarAngle = (1.85* Math.PI) / 4; // Maximum polar angle (in radians)
 // controls.minAzimuthAngle = -Math.PI / 4; // Minimum azimuthal angle (in radians)
 // controls.maxAzimuthAngle = 4*Math.PI / 4; // Maximum azimuthal angle (in radians)
-
+controls.dampingFactor = 0.25;
 
 /**
  * Renderer
